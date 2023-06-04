@@ -3,6 +3,7 @@ body{
   color: white;
   font-family: monospace;
   padding: 24px;
+  margin: 0;
 }
 .title{
   font-size: 48px;
@@ -45,6 +46,7 @@ button_Remover{
   font-family: monospace;
   font-weight: bold;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .footer{
