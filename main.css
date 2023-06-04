@@ -57,3 +57,44 @@ button_Remover{
   color: #ffffff;
   text-decoration:none;
 }
+@media (max-width: 768px) {
+  .title{
+    font-size: 32px;
+  }
+  .list-item{
+    font-size: 16px;
+  }
+  input{
+    height: 24px;
+    font-size: 12px;
+  }
+  button{
+    height: 24px;
+    font-size: 12px;
+    /* margin: 0 4px; */
+    margin-top: 5px;
+    padding: 0 7px;
+    background-color: #046a37;
+    color: white;
+    border-width: 0px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;girt
+  }
+  button_Remover{
+    font-size: 12px;
+    padding: 1px 10px;
+    background-color: #ff0000;
+    color: white;
+    border-width: 0px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .footer{
+    font-size: 10px;
+  }
+}
+```
